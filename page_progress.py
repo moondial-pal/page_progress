@@ -20,7 +20,5 @@ def pg_prog(total_pages: int):
     print("Absolute Legend!! You're at: " + progress)
 
 
-pg_prog(100)
+# Example: pg_prog(100)
 
-     Incorporate dictionary with uplifting, positive phrases.
-     Randomly select phrase from dictionary each time a percentage is printed.
