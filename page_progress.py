@@ -34,6 +34,6 @@ def pg_prog(total_pages: int):
     print("Absolute Legend!! You're at: " + progress)
 
 
-# Example:
-pg_prog(100)
-
+if __name__ == '__main__':
+    pg_prog(100)
+    get_pos_phrase()
