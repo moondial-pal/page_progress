@@ -6,6 +6,21 @@ import random
 """ Incorporate dictionary with uplifting, positive phrases.
 Randomly select phrase from dictionary each time a percentage is printed."""
 
+
+def get_pos_phrase():
+
+    pos_phrases = (
+        'Excellent!!',
+        'DY-NA-MITE!!',
+        'Yippee-kay-yeah progress conductor!',
+        'Absolute Legend!!'
+    )
+
+    print(random.choice(pos_phrases))
+
+
+
+
 # User must enter total number of pages in book
 def pg_prog(total_pages: int):
     # Ask user what page they are on
