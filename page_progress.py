@@ -1,4 +1,4 @@
-
+import random
 # Going to be a Beeware Mobile App potentially
 # Could also make a web app.
 # Could include sqlite db to save progress
@@ -6,11 +6,10 @@
 """ Incorporate dictionary with uplifting, positive phrases.
 Randomly select phrase from dictionary each time a percentage is printed."""
 
-
 # User must enter total number of pages in book
 def pg_prog(total_pages: int):
     # Ask user what page they are on
-    page = input("What page are you on?")
+    page = input("What page are you on? ")
     page_number = int(page)
 
     # Calculates and creates a percentage value
@@ -20,5 +19,6 @@ def pg_prog(total_pages: int):
     print("Absolute Legend!! You're at: " + progress)
 
 
-# Example: pg_prog(100)
+# Example:
+pg_prog(100)
 
