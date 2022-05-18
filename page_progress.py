@@ -19,21 +19,18 @@ def get_pos_phrase():
     print(random.choice(pos_phrases))
 
 
-
-
 # User must enter total number of pages in book
 def pg_prog(total_pages: int):
     # Ask user what page they are on
     page = input("What page are you on? ")
     page_number = int(page)
 
-    # Calculates and creates a percentage value
+    # Calculates and creates a percentage value then delivers a positive compliment
     percent = page_number/total_pages * 100
     progress = "%g%%" % percent
-
-    print("Absolute Legend!! You're at: " + progress)
+    print("You're at: " + progress)
+    get_pos_phrase()
 
 
 if __name__ == '__main__':
     pg_prog(100)
-    get_pos_phrase()
