@@ -37,10 +37,3 @@ Make sure you have Python installed, then run:
 ```bash
 python3 page_progress.py
 ```
-
-## 🔧 Ideas for Improvement
-
-- Save progress to a file or database (like SQLite)
-- Add a GUI using BeeWare or convert to a mobile app
-- Track multiple books
-- Visualize progress with charts or a progress bar
